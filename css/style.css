@@ -1,0 +1,43 @@
+.sticky-nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+
+
+.title {
+    font-family: 'Satisfy',
+        cursive;
+}
+
+/* defaults */
+.header {
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    background-color: violet;
+}
+
+/* big image */
+@media only screen and (min-width: 992px) {
+    .header {
+        background-image: url("/img/DanielleWestLarge.png");
+        min-height: 400px;
+    }
+}
+
+/* small image */
+@media only screen and (min-width:576px) and (max-width: 991px) {
+    .header {
+        background-image: url("/img/DanielleWestSmall.png");
+    }
+}
